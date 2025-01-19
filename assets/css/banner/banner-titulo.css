@@ -1,0 +1,23 @@
+.banner__titulo {
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    position: absolute; /* POSIÇÃO ABSOLUTA NA TELA*/ 
+    left: 50%; /* ALINHAMENTO A ESQUERDA E COM 50% NA TELA*/
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75); /* SOMBRA*/
+    top: 50%; /* FICA 50% ALINHADO AO TOPO*/
+    text-align: center;
+    transform: translate(-50%, -50%); /* VAI TRANSLADAR O TITULO*/
+    width: 100%;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+}

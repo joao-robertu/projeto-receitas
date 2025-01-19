@@ -1,0 +1,46 @@
+.menu__lista {
+    display: flex;
+}
+
+.menu-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu-fixo ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.menu-fixo ul li {
+    margin: 0 10px;
+}
+
+.menu-fixo ul li a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu-fixo ul li a:hover {
+    color: brown;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-fixo {
+        padding: 0;
+    } 
+}
+
+@media screen and (min-width: 992px) {
+    .menu-fixo {
+        padding: 0;
+    } 
+}
